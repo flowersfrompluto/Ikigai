@@ -1,0 +1,87 @@
+* {Margin: 0; padding: 0; box-sizing: border-box; background-color: rgb(236, 236, 238);}
+* {font-family: 'Rubik', sans-serif;}
+
+.welcome {width: 100%; text-align: center; justify-content: center;}
+.form {width: 95%; margin: auto; }
+.form p {font-weight: 600; width: 100%; margin: auto; text-align: center;}
+
+#title {padding: 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}
+
+
+/* DIV */
+.txt1 h3 {text-align: center; width: auto;}
+.txt2 p, .txt3 p {text-align: left; margin: auto;}
+.row1 {display: grid; grid-template-columns: auto auto auto; grid-gap: 10px; width: 80%; justify-content: space-between; align-items: center;}
+.row2 {display: grid; grid-template-columns: auto auto auto; grid-gap: 20px; width: 80%; justify-content: space-between; align-items: center;}
+
+
+.row3 {width: 60%;}
+
+.sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8 {display: grid; grid-template-columns: auto auto; width: 100%; justify-content: space-between;}
+
+
+
+/* LABEL TAGS */
+#subjectTxt {font-size: 15px; color: #036ca0;}
+#messageTxt {color: #39687e; font-size: 20px; font-weight: 600;}
+
+
+
+/* INPUT TAGS */
+#firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 5px 0px 5px 15px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}
+
+
+/* ERROR TAGS */
+#firstError, #lastError, #subject1Error, #score1Error, #subject2Error, #score2Error, #subject3Error, #score3Error, #subject4Error, #score4Error, #subject5Error, #score5Error, #subject6Error, #score6Error, #subject7Error, #score7Error, #subject8Error, #score8Error, #genderError, #nationalityError, #dobError, #phoneError, #emailError, #addressError {color: red; font-size: 12px; text-align: right;}
+
+
+#btn {padding:5px 20px; text-align: left; font-size: 20px; border-radius: 5px; background-color: yellowgreen; border: 1px solid rgb(145, 255, 0); color: black;}
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px){
+
+
+    #operator {padding: 10px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 8px 20px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 425px){
+    .home .bank h1 {font-size: 27px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 20px;}
+
+    #operator {padding: 10px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 12px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 375px){
+    .home .bank h1 {font-size: 25px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 18px;}
+
+    #operator {padding: 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 10px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 320px){
+    .home .bank h1 {font-size: 20px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 18px;}
+
+    #operator {padding: 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+}
