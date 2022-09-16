@@ -27,7 +27,7 @@ footer {width: 100%; margin: auto;}
 
 
 /* INPUT TAGS */
-#firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 5px 25px 5px 25px; text-align: left; font-size: 20px; border: 1px solid gainsboro; background-color: rgb(151, 151, 151);}
+#firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #country, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 5px 25px 5px 25px; text-align: left; font-size: 20px; border: 1px solid gainsboro; background-color: rgb(151, 151, 151);}
 
 
 /* ERROR TAGS */
@@ -64,7 +64,7 @@ footer {width: 100%; margin: auto;}
     .row3 {width: 60%;}
     .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8 {display: grid; grid-template-columns: auto auto; grid-gap: 50px; width: 100%; justify-content: space-between;}
 
-    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
+    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #country, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
 
     #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
     #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
@@ -81,7 +81,7 @@ footer {width: 100%; margin: auto;}
     .row3 {width: 60%;}
     .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8 {display: grid; grid-template-columns: auto; grid-gap: 0px; width: 100%; justify-content: space-between;}
 
-    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
+    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #country, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
 
     #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
     #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
@@ -97,7 +97,7 @@ footer {width: 100%; margin: auto;}
     .row3 {width: 60%;}
     .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8 {display: grid; grid-template-columns: auto; grid-gap: 0px; width: 100%; justify-content: space-between;}
 
-    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
+    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #country, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
 
     #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
     #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
@@ -113,7 +113,7 @@ footer {width: 100%; margin: auto;}
     .row3 {width: 60%;}
     .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8 {display: grid; grid-template-columns: auto; grid-gap: 0px; width: 100%; justify-content: space-between;}
 
-    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #nationality, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
+    #firstName, #middleName, #lastName, #phoneNumber, #email, #homeAddress, #gender, #country, #dob, #score1, #score2, #score3, #score4, #score5, #score6, #score7, #score8, #subject1, #subject2, #subject3, #subject4, #subject5, #subject6, #subject7, #subject8 {padding: 3px 0px 3px 5px; text-align: left; font-size: 20px; border-radius: 5px; background-color: #b2dbee; border: 1px solid rgb(0, 44, 94);}    
 
     #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
     #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
