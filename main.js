@@ -348,6 +348,122 @@ function process(){
     endService()
 }
 
+
+let subjectOptions = ['Select Subject', 'Accounting','Agricultural Science', 'Biology', 'Chemistry', 'Christian Religious Studies', 'Commerce','Computer Studies','Data Processing', "Economics", "Food and Nutrition", "French", "Further Mathematics", "Geography", "Government", "History", "Islamic Religious Studies", "Marketing", "Physics", "Visual Arts"];
+
+function subject3Select(){
+    let uniqueOption = new Set();
+    subjectOptions.forEach(r => uniqueOption.add(r));
+    let dropdownOption3 = [...uniqueOption];
+    // to convert variable to array you can use [...variablename]
+
+    subject3.innerHTML = '';
+    dropdownOption3.forEach(i => {
+        let option = document.createElement('option');
+        option.textContent = i;
+        subject3.appendChild(option);
+    });
+    subject3.addEventListener('change', ()=>{
+        let sub4 = subject3.value
+        subject4Select(dropdownOption3, sub4);
+    })
+}
+
+function subject4Select(one, two){
+
+    let filterSubject = one.filter(r => r != two);
+    let uniqueOption1 = new Set();
+    filterSubject.forEach(r => uniqueOption1.add(r));
+    let dropdownOption4 = [...uniqueOption1];
+
+    subject4.innerHTML = '';
+    dropdownOption4.forEach(item => {
+        let option = document.createElement('option');
+        option.textContent = item;
+        subject4.appendChild(option);
+    });
+    
+    subject4.addEventListener('change', ()=>{
+        let sub5=subject4.value;
+        subject5Select(dropdownOption4, sub5);
+    })
+}
+
+function subject5Select(one,two){
+    let filterSubject = one.filter(r => r != two);
+    let uniqueOption2 = new Set();
+    filterSubject.forEach(r => uniqueOption2.add(r));
+    let dropdownOption5 = [...uniqueOption2];
+
+    subject5.innerHTML = '';
+    dropdownOption5.forEach(item => {
+        let option = document.createElement('option');
+        option.textContent = item;
+        subject5.appendChild(option);
+
+    });
+    subject5.addEventListener('change', ()=>{
+        let sub6=subject5.value;
+        subject6Select(dropdownOption5, sub6);
+    })
+}
+
+function subject6Select(one,two){
+    let filterSubject = one.filter(r => r != two);
+    let uniqueOption2 = new Set();
+    filterSubject.forEach(r => uniqueOption2.add(r));
+    let dropdownOption6 = [...uniqueOption2];
+
+    subject6.innerHTML = '';
+    dropdownOption6.forEach(item => {
+        let option = document.createElement('option');
+        option.textContent = item;
+        subject6.appendChild(option);
+
+    });
+    subject6.addEventListener('change', ()=>{
+        let sub7=subject6.value;
+        subject7Select(dropdownOption6, sub7);
+    })
+}
+
+function subject7Select(one,two){
+    let filterSubject = one.filter(r => r != two);
+    let uniqueOption2 = new Set();
+    filterSubject.forEach(r => uniqueOption2.add(r));
+    let dropdownOption7 = [...uniqueOption2];
+
+    subject7.innerHTML = '';
+    dropdownOption7.forEach(item => {
+        let option = document.createElement('option');
+        option.textContent = item;
+        subject7.appendChild(option);
+
+    });
+    subject7.addEventListener('change', ()=>{
+        let sub8=subject7.value;
+        subject8Select(dropdownOption7, sub8);
+    })
+}
+
+function subject8Select(one,two){
+    let filterSubject = one.filter(r => r != two);
+    let uniqueOption2 = new Set();
+    filterSubject.forEach(r => uniqueOption2.add(r));
+    let dropdownOption8 = [...uniqueOption2];
+
+    subject8.innerHTML = '';
+    dropdownOption8.forEach(item => {
+        let option = document.createElement('option');
+        option.textContent = item;
+        subject8.appendChild(option);
+    });
+}
+
+
+document.addEventListener('DOMContentLoaded', subject3Select);
+
+
 function endService(){
 
     firstName.value = ""
