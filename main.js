@@ -300,13 +300,51 @@ function proceed(){
 function process(){
     totalPoint = agePoint + countryPoint + pointAward
     if (totalPoint > 180){
-        messageTxt.innerHTML = "You have " + totalPoint + " points and " + "your Scholarship application has been accepted"
+
+            let myChart = document.getElementById("myChart").getContext("2d");
+        
+            let scoreChart = new Chart(myChart, {
+                type: 'bar',
+                data: {
+                    labels: ['AGE', 'COUNTRY', 'GRADE'],
+                    datasets: [{
+                        label: ['score average'],
+                        data: [agePoint, countryPoint, pointAward],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'gray',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+        })
+        messageTxt.innerHTML = "You have an average of " + totalPoint + " points and " + "your Scholarship application has been accepted"
         messageTxt.style.color = "green"
     }else {
-        messageTxt.innerHTML =  "You have " + totalPoint + " points and " + "your Scholarship application has been rejected !"
+        messageTxt.innerHTML =  "You have an average of " + totalPoint + " points and " + "your Scholarship application has been rejected !"
         messageTxt.style.color = "red"
     }
-
+    
     endService()
 }
 
